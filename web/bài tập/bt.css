@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Logo {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Logo img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+header {
+  background: lightseagreen;
+  padding: 10px 0;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-poll-section {
+  display: flex;
+  gap: 20px;
+  max-width: 950px;
+  margin: 20px auto;
+}
+.main-news-block {
+  width: 60%;
+  background: #fff;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px #ddd;
+}
+.main-news-img {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+}
+.main-news-content {
+  padding: 10px 15px;
+}
+.news-time {
+  font-size: 12px;
+  color: #888;
+}
+.main-news-content h3 {
+  margin: 5px 0 8px 0;
+  font-size: 18px;
+  color: #222;
+}
+.main-news-content p {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+}
+.side-news-poll {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.side-news-list {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px #ddd;
+  padding: 10px;
+}
+.side-news-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.side-news-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.side-news-item span {
+  font-size: 14px;
+  color: #222;
+}
+.poll-box {
+  background: #f8fafd;
+  border: 1px solid #dbe3ea;
+  border-radius: 6px;
+  padding: 12px 15px;
+}
+.poll-title {
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 8px;
+}
+.poll-question {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.poll-box label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.btn-send,
+.btn-result {
+  margin-top: 8px;
+  margin-right: 8px;
+  padding: 5px 16px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-send {
+  background: #7b8a99;
+  color: #fff;
+}
+.btn-result {
+  background: #e74c3c;
+  color: #fff;
+}

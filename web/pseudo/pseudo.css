@@ -1,0 +1,14 @@
+.a{
+    color: blue;
+    text-decoration: none;
+}
+       .pseudo:active {
+            color: rgb(255, 47, 109);
+        }
+        .pseudo1:hover {
+            color: rgb(193, 255, 47);
+        }
+.pseudo2:visited{
+    color: rgb(9, 233, 225);
+}
+
